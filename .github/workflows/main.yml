@@ -11,11 +11,10 @@ jobs:
 
 
      steps:
-      - name: 'Testing Github action'
+      - name: 'printing folder contents'
         run: pwd
 
-      - name: 'Testing printing'
-        run: echo habiba
+
 
      
  
