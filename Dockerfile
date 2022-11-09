@@ -1,6 +1,5 @@
 FROM openjdk
 
-WORKDIER /appliction
 
 COPY habiba1.java .
 
