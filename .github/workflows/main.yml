@@ -11,12 +11,12 @@ jobs:
 
 
      steps:
-      - name: 'after'
+      - name: 'Before'
         run: ls
       
-      -uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: 'before'
+      - name: 'After'
         run: ls
 
      
