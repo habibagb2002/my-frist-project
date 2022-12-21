@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+name: my-deployment-controller
+spec:
+replicas: 3
+template:
+metadata:
+name: any-name-that-you-like
+labels:
+label-name-1: label-value
+another-label: my-app-name
+spec:
+containers:
+- image: nginx
+name: nginx-container
+resources:
+limits:
+memory: "512Mi"
+cpu: "1"

@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-first-app
+spec:
+  containers:
+    - image: habibagb2002/nginx
+      name: my-nginx-app
+      imagePullPolicy: ifNotPresent
+      prts:
+        - containerPort: 80
+    
